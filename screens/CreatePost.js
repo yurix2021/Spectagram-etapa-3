@@ -48,7 +48,7 @@ export default class CreatePost extends Component {
                         ></Image>
                     </View>
                     <View style={styles.appTitleTextContainer}>
-                        <Text style={styles.appTitleText}>New Post</Text>
+                        <Text style={styles.appTitleText}>Nueva publicación</Text>
                     </View>
                 </View>
                 <View style={styles.fieldsContainer}>
@@ -102,7 +102,7 @@ export default class CreatePost extends Component {
                         <TextInput
                             style={styles.inputFont}
                             onChangeText={caption => this.setState({ caption })}
-                            placeholder={"Caption"}
+                            placeholder={"Título"}
                             placeholderTextColor="white"
                         />
                     </ScrollView>
